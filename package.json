@@ -1,15 +1,7 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "App.js",       // ton fichier principal
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",        // toutes les requêtes passent par App.js
-      "dest": "/App.js"
-    }
-  ]
+  "version": "1.0.0",
+  "name": "my-app",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
